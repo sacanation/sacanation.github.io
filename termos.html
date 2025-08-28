@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Termos de Serviço — sacabot</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #111823;
+      --text: #e6eef8;
+      --muted: #98a6b3;
+      --link: #7cc0ff;
+      --accent: #4b9cff;
+    }
+    * { box-sizing: border-box }
+    html, body { height: 100% }
+    body {
+      margin: 0;
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, sans-serif;
+      color: var(--text);
+      background: radial-gradient(1200px 600px at 20% -10%, #122033, transparent 60%),
+                  radial-gradient(1200px 600px at 120% 10%, #141c27, transparent 60%),
+                  var(--bg);
+      display: grid;
+      place-items: start center;
+      padding: 32px 16px;
+    }
+    .wrap {
+      width: 100%;
+      max-width: 860px;
+      background: color-mix(in srgb, var(--card) 92%, #000 8%);
+      border: 1px solid #1b2735;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+      overflow: clip;
+    }
+    header {
+      padding: 28px 28px 16px;
+      background: linear-gradient(180deg, rgba(76,156,255,0.08), transparent 60%);
+      border-bottom: 1px solid #1b2735;
+    }
+    h1 { font-size: 1.75rem; margin: 0 0 4px }
+    .sub { color: var(--muted); margin: 0 }
+    main { padding: 8px 28px 28px }
+    h2 { font-size: 1.1rem; margin: 22px 0 8px; color: var(--text) }
+    p, li { color: var(--text) }
+    ul { margin: 8px 0 16px 22px }
+    a { color: var(--link); text-underline-offset: 3px }
+    .meta { color: var(--muted); font-size: 0.925rem }
+    .notice {
+      display: flex; gap: 10px; align-items: flex-start;
+      background: #0e1520;
+      border: 1px solid #203044;
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 12px 0 20px;
+      color: var(--muted);
+    }
+    .foot { padding: 16px 28px; border-top: 1px solid #1b2735; color: var(--muted) }
+    code { background: #0b111a; padding: 2px 6px; border-radius: 6px; border: 1px solid #172335 }
+  </style>
+</head>
+<body>
+  <div class="wrap" role="document">
+    <header>
+      <h1>Termos de Serviço — sacabot</h1>
+      <p class="sub">Versão simples e direta para uso do bot no Discord.</p>
+      <p class="meta">Última atualização: 27 de agosto de 2025</p>
+    </header>
+
+    <main>
+      <div class="notice" role="note" aria-label="Resumo legal">
+        <span>⚖️</span>
+        <p>Ao adicionar ou usar o <strong>sacabot</strong> em um servidor, você concorda com estes Termos. Se não concordar, não utilize o serviço.</p>
+      </div>
+
+      <h2>1. Definições</h2>
+      <p><strong>Bot</strong>: a aplicação “sacabot”. <strong>Você</strong>: qualquer usuário que interaja com o bot ou administrador de servidor que o adiciona.</p>
+
+      <h2>2. Aceitação</h2>
+      <p>O uso do bot implica a aceitação integral destes Termos e da <a href="#privacidade">Política de Privacidade</a> (quando aplicável), bem como conformidade com os <a href="https://discord.com/terms" target="_blank" rel="noopener noreferrer">Termos de Serviço</a> e as <a href="https://discord.com/guidelines" target="_blank" rel="noopener noreferrer">Diretrizes da Comunidade</a> do Discord.</p>
+
+      <h2>3. Requisitos</h2>
+      <ul>
+        <li>Conta válida no Discord e respeito às políticas da plataforma.</li>
+        <li>Permissões adequadas concedidas ao bot para executar os comandos escolhidos.</li>
+      </ul>
+
+      <h2>4. Uso permitido</h2>
+      <ul>
+        <li>Não utilize o bot para assediar, ameaçar, disseminar ódio, spam ou conteúdos ilegais.</li>
+        <li>Não tente descompilar, modificar ou explorar falhas do bot.</li>
+        <li>Respeite limites de uso e <em>rate limits</em> definidos pelo Discord e pelo bot.</li>
+      </ul>
+
+      <h2>5. Conteúdo do usuário</h2>
+      <ul>
+        <li>Você é responsável pelo conteúdo enviado via comandos, mensagens ou anexos.</li>
+        <li>Podemos remover ou bloquear acesso ao bot em servidores que violem estes Termos ou a lei.</li>
+      </ul>
+
+      <h2 id="privacidade">6. Dados e privacidade (resumo)</h2>
+      <p>O sacabot pode processar dados técnicos necessários para funcionar (por exemplo: IDs de servidor/canal/usuário, nomes de comando, carimbos de tempo, e registros mínimos de erros). Não coletamos conteúdo de mensagens privadas, salvo quando tecnicamente indispensável para executar um comando solicitado.</p>
+      <ul>
+        <li>Dados são usados para operação, melhoria, monitoramento de abuso e suporte.</li>
+        <li>Logs técnicos são retidos pelo tempo mínimo necessário para diagnósticos e segurança.</li>
+        <li>Você pode solicitar remoção de dados identificáveis do seu usuário, quando aplicável.</li>
+      </ul>
+      <p class="meta">Observação: esta seção é um resumo. Para projetos públicos, recomendamos publicar uma Política de Privacidade dedicada.</p>
+
+      <h2>7. Disponibilidade e alterações</h2>
+      <ul>
+        <li>O serviço é fornecido “no estado em que se encontra” e pode ficar indisponível sem aviso prévio.</li>
+        <li>Podemos atualizar funcionalidades, comandos e estes Termos a qualquer momento.</li>
+      </ul>
+
+      <h2>8. Limitação de responsabilidade</h2>
+      <p>Na extensão máxima permitida pela lei aplicável, não seremos responsáveis por danos indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes do uso ou impossibilidade de uso do bot.</p>
+
+      <h2>9. Rescisão</h2>
+      <p>Podemos remover o bot de um servidor ou bloquear usuários que violem estes Termos. Você pode parar de usar o serviço a qualquer momento removendo o bot do servidor.</p>
+
+      <h2>10. Contato</h2>
+      <p>Para dúvidas, solicitações de dados ou reports de bugs, entre em contato: <a href="mailto:seu_email@exemplo.com">seu_email@exemplo.com</a> ou abra uma issue no repositório oficial (se houver).</p>
+
+      <h2>11. Lei aplicável</h2>
+      <p>Estes Termos são regidos pelas leis aplicáveis do seu país/estado de residência ou, se especificado, pelas leis do Brasil. Eventuais disputas serão tratadas no foro competente.</p>
+
+      <hr>
+      <p class="meta">
+        Dica: você pode incorporar este documento em um site, GitHub Pages ou enviar o link na descrição do bot. Guarde o histórico de versões para transparência.
+      </p>
+    </main>
+
+    <div class="foot">
+      <small>© <span id="year"></span> sacabot — Todos os direitos reservados.</small>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
